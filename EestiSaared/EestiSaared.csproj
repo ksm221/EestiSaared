@@ -51,6 +51,29 @@
 
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.UI.Xaml" Version="2.8.2" />
+	  <PackageReference Include="SkiaSharp" Version="2.88.6" />
+	  <PackageReference Include="SkiaSharp.Views.Maui.Core" Version="2.88.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\IslandsPage.xaml.cs">
+	    <DependentUpon>IslandsPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\IslandDetailsPage.xaml.cs">
+	    <DependentUpon>IslandDetailsPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\IslandDetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\IslandsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\StartPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
