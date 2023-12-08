@@ -12,8 +12,10 @@ namespace EestiSaared.Models
         {
             ImageItems = new ObservableCollection<ImageItem>
         {
-            new ImageItem { ImagePath = "https://static.visitestonia.com/images/3937425/600_400_false_false_a9598470cb044bb493f0e91b0bc423eb.jpg" },
-            new ImageItem { ImagePath = "https://www.ruhnuring.ee/wp-content/uploads/2020/12/kirikud-1024x576.jpg" },
+            new ImageItem { ImagePath = "saaremaa.jpg" },
+            new ImageItem { ImagePath = "hiiumaa.jpg" },
+            new ImageItem { ImagePath = "kihnu.jpg" },
+            new ImageItem { ImagePath = "ruhnu.jpg" },
             // Add more images as needed
         };
         }
