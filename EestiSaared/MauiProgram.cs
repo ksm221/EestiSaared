@@ -2,6 +2,8 @@
 
 public static class MauiProgram
 {
+
+	//Teeks ühe kohvi
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
