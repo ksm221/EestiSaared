@@ -2,7 +2,7 @@
 
 public static class MauiProgram
 {
-	//Mei saared app
+	//Meie saared app
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
