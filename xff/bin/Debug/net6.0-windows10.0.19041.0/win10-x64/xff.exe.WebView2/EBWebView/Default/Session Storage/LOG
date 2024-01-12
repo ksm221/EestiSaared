@@ -1,3 +1,6 @@
-2024/01/12-11:19:17.159 2550 Reusing MANIFEST C:\Users\opilane\source\repos\xff\xff\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\xff.exe.WebView2\EBWebView\Default\Session Storage/MANIFEST-000001
-2024/01/12-11:19:17.160 2550 Recovering log #3
-2024/01/12-11:19:17.162 2550 Reusing old log C:\Users\opilane\source\repos\xff\xff\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\xff.exe.WebView2\EBWebView\Default\Session Storage/000003.log 
+2024/01/12-12:23:13.325 4204 Reusing MANIFEST C:\Users\opilane\source\repos\xff\xff\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\xff.exe.WebView2\EBWebView\Default\Session Storage/MANIFEST-000001
+2024/01/12-12:23:13.326 4204 Recovering log #4
+2024/01/12-12:23:13.328 4204 Reusing old log C:\Users\opilane\source\repos\xff\xff\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\xff.exe.WebView2\EBWebView\Default\Session Storage/000004.log 
+2024/01/12-12:23:16.263 4204 Level-0 table #8: started
+2024/01/12-12:23:16.267 4204 Level-0 table #8: 20771 bytes OK
+2024/01/12-12:23:16.269 4204 Delete type=0 #4

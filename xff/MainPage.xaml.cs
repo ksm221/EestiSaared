@@ -1,39 +1,59 @@
 ﻿using Microsoft.Maui.Controls;
-using System.Globalization;
+using xff.Services;
+using System.Collections.Generic;
+using Microsoft.Maui.Devices.Sensors;
 
 namespace xff
 {
     public partial class MainPage : ContentPage
     {
+        private readonly MapService _mapService;
+
         public MainPage()
         {
             InitializeComponent();
 
+            _mapService = new MapService();
 
-            double latitude = 58.1499;
-            double longitude = 22.5055;
-            string apiKey = "AIzaSyBz1eES6CyIBLu2KAt92nQtmDzYOa9Dsj8";
-
-            string title = "Abruka"; // Replace with your desired title
-
-            // Create a label for the title
-            var titleLabel = new Label
+            // Example: Multiple islandLocations
+            var islandLocations = new List<islandLocation>
             {
-                Text = title,
-                FontSize = 20,
-                HorizontalOptions = LayoutOptions.Center
+                new islandLocation { Latitude = 59.3358, Longitude = 23.9824, Title = "Väike Pakri" },
+                new islandLocation { Latitude = 59.3228, Longitude = 23.9240, Title = "Suur Pakri" },
+                new islandLocation { Latitude = 59.6254, Longitude = 25.0106, Title = "Prangli" },
+                new islandLocation { Latitude = 59.5840, Longitude = 24.7585, Title = "Aegna" },
+                new islandLocation { Latitude = 58.5386, Longitude = 23.4381, Title = "Viirelaid" },
+                new islandLocation { Latitude = 58.2019, Longitude = 26.0578, Title = "Tondisaar" },
+                new islandLocation { Latitude = 58.2160, Longitude = 24.1247, Title = "Manilaid" }
+                // Add more islandLocations as needed
             };
 
-            var htmlContent = $"<html><body><iframe width='400' height='450' frameborder='0' style='border:0'" +
-                              $"src='https://www.google.com/maps/embed/v1/view?key={apiKey}&center={latitude.ToString(CultureInfo.InvariantCulture)},{longitude.ToString(CultureInfo.InvariantCulture)}&zoom=18&maptype=satellite'" +
-                              $"allowfullscreen></iframe></body></html>";
-            googleMapView.Source = new HtmlWebViewSource { Html = htmlContent };
+            var stackLayout = (StackLayout)Content.FindByName("StackLayout");
 
-            // Add the title label and WebView to the content layout
-            Content = new StackLayout
+            // Generate HTML content for each location using the MapService
+            foreach (var location in islandLocations)
             {
-                Children = { titleLabel, googleMapView }
-            };
+                var mapHtml = _mapService.GenerateMapHtmls(new List<islandLocation> { location }, "AIzaSyBz1eES6CyIBLu2KAt92nQtmDzYOa9Dsj8")[0];
+
+                var titleLabel = new Label
+                {
+                    Text = location.Title,
+                    FontSize = 20,
+                    HorizontalOptions = LayoutOptions.Center
+                };
+
+                var webView = new WebView
+                {
+                    Source = new HtmlWebViewSource { Html = mapHtml },
+                    HeightRequest = 450,
+                    WidthRequest = 600,
+                    HorizontalOptions = LayoutOptions.FillAndExpand,
+                    VerticalOptions = LayoutOptions.FillAndExpand
+                };
+
+                stackLayout.Children.Add(titleLabel);
+                stackLayout.Children.Add(webView);
+            }
         }
     }
 }
