@@ -18,13 +18,11 @@ namespace xff
         {
             if (sender is Button button)
             {
-                // Get the selected islandImage based on the button's text
                 string buttonText = button.Text;
                 var selectedImage = _islandImageService.GetIslandImages().Find(img => img.Title == buttonText);
 
                 if (selectedImage != null)
                 {
-                    // Navigate to ImageGalleryPage and pass the selected image
                     await Navigation.PushAsync(new ImageGalleryPage(selectedImage));
                 }
             }

@@ -18,14 +18,19 @@ namespace xff
             _islandLocationService = new IslandLocationService();
             _selectedIsland = selectedIsland;
 
-            var stackLayout = (StackLayout)Content.FindByName("StackLayout");
+            var stackLayout = new StackLayout
+            {
+                Spacing = 10,
+                BackgroundColor = Colors.LightBlue
+            };
 
-            var mapHtml = _mapService.GenerateMapHtmls(new List<islandLocation> { _selectedIsland }, "AIzaSyCul7gCzLmFH_NjS9_f6gsG4SULb_Y_Gnw")[0];
+            var mapHtml = _mapService.GenerateMapHtmls(new List<islandLocation> { _selectedIsland }, "AIzaSyCCt2s_LK-28_oriLpyJrKnMfzX99amuYI")[0];
 
             var titleLabel = new Label
             {
                 Text = _selectedIsland.Title,
-                FontSize = 20,
+                TextColor = Colors.LightBlue,
+                FontSize = 40,
                 HorizontalOptions = LayoutOptions.Center
             };
 
@@ -40,6 +45,8 @@ namespace xff
 
             stackLayout.Children.Add(titleLabel);
             stackLayout.Children.Add(webView);
+
+            Content = stackLayout;
         }
     }
 }

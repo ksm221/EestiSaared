@@ -13,7 +13,47 @@
                 Style="{StaticResource Buttonstyle}"
                 Text="Suur-Pakri"
                 HorizontalOptions="Center"
-                WidthRequest="3000"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Väike-Pakri"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Aegna"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Viirelaid"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Tondisaar"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Manilaid"
+                HorizontalOptions="Center"
+                WidthRequest="400"
                 HeightRequest="50"
                 Margin="0,12,0,6"
                 Clicked="OnGalleryButtonClicked" />

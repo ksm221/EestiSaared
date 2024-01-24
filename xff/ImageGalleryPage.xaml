@@ -5,6 +5,11 @@
              x:Class="xff.ImageGalleryPage">
 
     <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="stackLayout" VerticalOptions="CenterAndExpand">
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 
 </ContentPage>

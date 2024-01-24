@@ -1,5 +1,6 @@
 using Microsoft.Maui.Controls;
 using xff.Services;
+using Microsoft.Maui.Graphics;
 using System;
 
 namespace xff
@@ -14,27 +15,37 @@ namespace xff
 
             _selectedImage = selectedImage;
 
-            PopulateImageGallery();
+            var stackLayout = new StackLayout
+            {
+                Spacing = 20,
+                BackgroundColor = Colors.LightBlue
+            };
+
+            var scrollView = new ScrollView
+            {
+                Content = stackLayout
+            };
+
+            Content = scrollView;
+
+            PopulateImageGallery(stackLayout);
         }
 
-        private void PopulateImageGallery()
+        private void PopulateImageGallery(StackLayout stackLayout)
         {
-            var stackLayout = new StackLayout();
-
             foreach (var imageUrl in _selectedImage.Images)
             {
                 var image = new Image
                 {
                     Source = imageUrl,
-                    Aspect = Aspect.AspectFit,
-                    HeightRequest = 200,
-                    WidthRequest = 300,
+                    Aspect = Aspect.AspectFill,
+                    HeightRequest = 500,
+                    WidthRequest = 700,
+                    Margin = new Thickness(0, 0, 0, 0)
                 };
 
                 stackLayout.Children.Add(image);
             }
-
-            Content = stackLayout;
         }
     }
 }
