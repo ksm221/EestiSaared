@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:xff"
+             x:Class="xff.GalleryMenuPage"
+             BackgroundColor="Green">
+
+    <AbsoluteLayout>
+        <Image Source="background.jpg" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+        <StackLayout x:Name="buttonStackLayout" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" VerticalOptions="CenterAndExpand">
+
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Suur-Pakri"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Väike-Pakri"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Aegna"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Viirelaid"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Tondisaar"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Manilaid"
+                HorizontalOptions="Center"
+                WidthRequest="400"
+                HeightRequest="50"
+                Margin="0,12,0,6"
+                Clicked="OnGalleryButtonClicked" />
+
+        </StackLayout>
+    </AbsoluteLayout>
+
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿Väike-Pakri/Coordinates
+59.3358° N, 23.9824° E
+
+Suur-Pakri
+59.3228° N, 23.9240° E
+
+Prangli/Coordinates
+59.6254° N, 25.0106° E
+
+Aegna
+59.5840° N, 24.7585° E
+
+Viirelaid/Coordinates
+58.5386° N, 23.4381° E
+
+Tondisaar/Coordinates
+58.2019° N, 26.0578° E
+
+Manilaid/Coordinates
+58.2160° N, 24.1247° E

@@ -1,0 +1,17 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xff="clr-namespace:xff"
+             x:Class="xff.MapsPage"
+             BackgroundImageSource="background.jpg"
+             BackgroundColor="Blue">
+
+    <AbsoluteLayout>
+        <Image Source="background.jpg" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+
+        <ScrollView>
+            <StackLayout x:Name="buttonStackLayout" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+            </StackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+
+</ContentPage>
