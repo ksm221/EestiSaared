@@ -26017,11 +26017,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Karl\\Desktop\\EestiSaared-mapstest-gallery\\EestiSaared-mapstest\\xff\\xff.csproj",
+      "projectUniqueName": "C:\\Users\\Karl\\Desktop\\test\\EestiSaared-karl\\xff\\xff.csproj",
       "projectName": "xff",
-      "projectPath": "C:\\Users\\Karl\\Desktop\\EestiSaared-mapstest-gallery\\EestiSaared-mapstest\\xff\\xff.csproj",
+      "projectPath": "C:\\Users\\Karl\\Desktop\\test\\EestiSaared-karl\\xff\\xff.csproj",
       "packagesPath": "C:\\Users\\Karl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Karl\\Desktop\\EestiSaared-mapstest-gallery\\EestiSaared-mapstest\\xff\\obj\\",
+      "outputPath": "C:\\Users\\Karl\\Desktop\\test\\EestiSaared-karl\\xff\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

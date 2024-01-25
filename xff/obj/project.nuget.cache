@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+oKWWBntw7E//o4VMWu6m2UTdm75OGViUV/gRn3hk3Hd7EqPqx3Vc+RXzXmEcHN1clf5Sp6FfxT/fbRU04s0WQ==",
+  "dgSpecHash": "e/dB+9zZIQZgK8bYw3nCcfA8T/sYfGU4W0m961wf5lXVAPcdvbBR1ABmhla7focHHMFbhdWVMbwz7/L0+DLVqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karl\\Desktop\\EestiSaared-mapstest-gallery\\EestiSaared-mapstest\\xff\\xff.csproj",
+  "projectFilePath": "C:\\Users\\Karl\\Desktop\\test\\EestiSaared-karl\\xff\\xff.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karl\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\Karl\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

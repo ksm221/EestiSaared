@@ -1,0 +1,30 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:xff"
+             x:Class="xff.MainMenuPage"
+             BackgroundColor="Red">
+
+    <AbsoluteLayout>
+        <Image Source="background.jpg" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+
+        <Label Text="Eesti Saared" FontSize="68" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Start" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5,0.05,-1,-1"/>
+
+        <StackLayout x:Name="buttonStackLayout" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" VerticalOptions="CenterAndExpand" Spacing="10">
+
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Maps"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="OnMainMenuButtonClicked" />
+            <Button
+                Style="{StaticResource Buttonstyle}"
+                Text="Gallery"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="OnMainMenuButtonClicked" />
+
+        </StackLayout>
+    </AbsoluteLayout>
+
+</ContentPage>

@@ -8,51 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = xff
-build_property.ProjectDir = C:\Users\Karl\Desktop\EestiSaared-mapstest-gallery\EestiSaared-mapstest\xff\
+build_property.ProjectDir = C:\Users\Karl\Desktop\test\EestiSaared-karl\xff\
 
-[C:/Users/Karl/Desktop/EestiSaared-mapstest-gallery/EestiSaared-mapstest/xff/Resources/Images/test.JPG]
+[C:/Users/Karl/Desktop/test/EestiSaared-karl/xff/Resources/Images/test.JPG]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.RelativePath = 
 
-[C:/Users/Karl/Desktop/EestiSaared-mapstest-gallery/EestiSaared-mapstest/xff/App.xaml]
+[C:/Users/Karl/Desktop/test/EestiSaared-karl/xff/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = xff.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Karl/Desktop/EestiSaared-mapstest-gallery/EestiSaared-mapstest/xff/GalleryMenuPage.xaml]
+[C:/Users/Karl/Desktop/test/EestiSaared-karl/xff/GalleryMenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = xff.GalleryMenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = GalleryMenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = GalleryMenuPage.xaml
 
-[C:/Users/Karl/Desktop/EestiSaared-mapstest-gallery/EestiSaared-mapstest/xff/ImageGalleryPage.xaml]
+[C:/Users/Karl/Desktop/test/EestiSaared-karl/xff/ImageGalleryPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = xff.ImageGalleryPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ImageGalleryPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ImageGalleryPage.xaml
 
-[C:/Users/Karl/Desktop/EestiSaared-mapstest-gallery/EestiSaared-mapstest/xff/MapsPage.xaml]
+[C:/Users/Karl/Desktop/test/EestiSaared-karl/xff/MainMenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = xff.MainMenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuPage.xaml
+
+[C:/Users/Karl/Desktop/test/EestiSaared-karl/xff/MapsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = xff.MapsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MapsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MapsPage.xaml
 
-[C:/Users/Karl/Desktop/EestiSaared-mapstest-gallery/EestiSaared-mapstest/xff/MenuPage.xaml]
+[C:/Users/Karl/Desktop/test/EestiSaared-karl/xff/MenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = xff.MenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MenuPage.xaml
 
-[C:/Users/Karl/Desktop/EestiSaared-mapstest-gallery/EestiSaared-mapstest/xff/Resources/Styles/Colors.xaml]
+[C:/Users/Karl/Desktop/test/EestiSaared-karl/xff/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = xff.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Karl/Desktop/EestiSaared-mapstest-gallery/EestiSaared-mapstest/xff/Resources/Styles/Styles.xaml]
+[C:/Users/Karl/Desktop/test/EestiSaared-karl/xff/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = xff.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
